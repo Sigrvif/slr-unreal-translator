@@ -1,0 +1,77 @@
+{
+ "game": "<games-root>\\SampleGameA",
+ "fingerprint": {
+  "engine": "ue5",
+  "iostore": true,
+  "containers": [
+   {
+    "path": "<games-root>\\SampleGameA\\sample_a\\Content\\Paks\\sample_a-Windows.pak",
+    "kind": "pak",
+    "footer": "patched-e1",
+    "index_encrypted": false,
+    "entries": null
+   },
+   {
+    "path": "<games-root>\\SampleGameA\\sample_a\\Content\\Paks\\global.utoc",
+    "kind": "utoc",
+    "header": "ok",
+    "version": 8,
+    "entry_count": 1,
+    "encrypted": false,
+    "signed": false
+   },
+   {
+    "path": "<games-root>\\SampleGameA\\sample_a\\Content\\Paks\\sample_a-Windows.utoc",
+    "kind": "utoc",
+    "header": "ok",
+    "version": 8,
+    "entry_count": 3247,
+    "encrypted": false,
+    "signed": false
+   }
+  ],
+  "ufs": [
+   "<games-root>\\SampleGameA\\Manifest_UFSFiles_Win64.txt"
+  ]
+ },
+ "utocs": [
+  {
+   "path": "<games-root>\\SampleGameA\\sample_a\\Content\\Paks\\global.utoc",
+   "entries": 1,
+   "named_files": 0,
+   "methods": [],
+   "blocks_by_method": {
+    "0": 41
+   },
+   "extracted_sample": {
+    "ok": 1,
+    "fail": 0
+   }
+  },
+  {
+   "path": "<games-root>\\SampleGameA\\sample_a\\Content\\Paks\\sample_a-Windows.utoc",
+   "entries": 3247,
+   "named_files": 1708,
+   "methods": [
+    "Oodle"
+   ],
+   "blocks_by_method": {
+    "0": 3543,
+    "1": 15879
+   },
+   "extracted_sample": {
+    "ok": 25,
+    "fail": 0
+   }
+  }
+ ],
+ "pak": {
+  "path": "<games-root>\\SampleGameA\\sample_a\\Content\\Paks\\sample_a-Windows.pak",
+  "footer_magic": "patched-e1",
+  "index_encrypted": false,
+  "entries": 1669,
+  "manifest_count": 4737,
+  "name_coverage": 1.0
+ },
+ "oodle": true
+}

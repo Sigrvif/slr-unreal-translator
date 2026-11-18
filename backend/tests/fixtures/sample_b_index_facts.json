@@ -1,0 +1,24 @@
+{
+ "index_location": "footer",
+ "aes_key_hex": null,
+ "aes_key_evidence": "WITHHELD: the pak-index AES key belongs to the game, not this project; tests resolve it from SLRUNREAL_SAMPLE_B_AES_KEY or the untracked fixtures/local/sample_b.key (see tests/keys.py)",
+ "magic_patch": {
+  "stock": "5A6F12F1",
+  "patched": "5A6F12E1",
+  "engine_refs": "the FPakFile::Initialize magic compare accepts the patched value"
+ },
+ "foreign_pak_checks": "none-found",
+ "evidence": [
+  {
+   "claim": "Index location is the trailing pak footer; FPakInfo::Deserialize reads bEncryptedIndex, magic, version, index offset/size and compression names from it",
+   "function": "FPakInfo::Deserialize",
+   "file": "engine (shared UE source)"
+  },
+  {
+   "claim": "The stock magic compare rejects the patched footer; exactly one literal comparison gates index parsing",
+   "function": "FPakFile::Initialize",
+   "file": "engine (shared UE source)"
+  }
+ ],
+ "confidence": "high"
+}

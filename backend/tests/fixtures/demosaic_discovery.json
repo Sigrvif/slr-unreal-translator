@@ -1,0 +1,95 @@
+{
+ "sample_a": {
+  "candidates": [
+   {
+    "asset": "sample_a/Content/Characters/Heroine.uasset",
+    "object": "mesh 'Heroine' FSkeletalMaterial[3].Material",
+    "why": "Sole mosaic slot of the mesh: the material array binds the pixelation material with slot name 'M_mosaic' while every other slot binds body materials; usage evidence in the scene widgets",
+    "edit_hint": "payload @0x5CE3: FB FF FF FF -> FA FF FF FF",
+    "confidence": "high"
+   },
+   {
+    "asset": "sample_a/Content/Characters/Heroine_s.uasset",
+    "object": "mesh 'Heroine_S' FSkeletalMaterial[3].Material",
+    "why": "Same construction as the base mesh: one mosaic slot binding the shared pixelation import, five body slots",
+    "edit_hint": "payload @0x5F87: FB FF FF FF -> FA FF FF FF",
+    "confidence": "high"
+   },
+   {
+    "asset": "sample_a/Content/Characters/Heroine_back.uasset",
+    "object": "mesh 'Heroine_back' FSkeletalMaterial[3].Material",
+    "why": "Scene variant mesh, identical mosaic slot layout",
+    "edit_hint": "payload @0x610B: FB FF FF FF -> FA FF FF FF",
+    "confidence": "high"
+   },
+   {
+    "asset": "sample_a/Content/Characters/Heroine_fera.uasset",
+    "object": "mesh 'Heroine_fera' FSkeletalMaterial[3].Material",
+    "why": "Scene variant mesh, identical mosaic slot layout",
+    "edit_hint": "payload @0x61D3: FB FF FF FF -> FA FF FF FF",
+    "confidence": "high"
+   },
+   {
+    "asset": "sample_a/Content/Characters/Heroine_class.uasset",
+    "object": "mesh 'Heroine_class' FSkeletalMaterial[3].Material",
+    "why": "Scene variant mesh; the clean slot binds M_body_clear here",
+    "edit_hint": "payload @0x6100: FB FF FF FF -> FA FF FF FF",
+    "confidence": "high"
+   },
+   {
+    "asset": "sample_a/Content/Characters/Heroine_scene02.uasset",
+    "object": "mesh 'Heroine_ev02' FSkeletalMaterial[3].Material",
+    "why": "Event-scene variant mesh, identical mosaic slot layout",
+    "edit_hint": "payload @0x624F: FB FF FF FF -> FA FF FF FF",
+    "confidence": "high"
+   },
+   {
+    "asset": "sample_a/Content/Characters/Costume01.uasset",
+    "object": "mesh 'Costume01' FSkeletalMaterial[2].Material",
+    "why": "Costume mesh with a two-slot array; the second slot is the mosaic binding",
+    "edit_hint": "payload @0x341D: FB FF FF FF -> FA FF FF FF",
+    "confidence": "high"
+   },
+   {
+    "asset": "sample_a/Content/UI/WBP_Status.uasset",
+    "object": "widget 'WBP_Status' material binding 'M_BlurOverlay'",
+    "why": "Medium-confidence lead: the overlay material is bound only by name evidence and a usage reference in one widget; no byte-located edit is known, so it stays out of the default high-only run",
+    "edit_hint": "material-name lead (no byte edit)",
+    "confidence": "medium"
+   }
+  ],
+  "files_scanned": 1204,
+  "sweep_terms": [
+   "mosaic",
+   "blur",
+   "pixelate",
+   "censor",
+   "モザイク"
+  ]
+ },
+ "sample_b": {
+  "candidates": [
+   {
+    "asset": "sample_b/Content/Event/EV_Scene04.uexp",
+    "object": "widget 'WBP_Event' texture binding @ +0x2B5",
+    "why": "The widget binds the censored event image through a soft reference at a pinned offset; swapping the four payload bytes to the sibling clean texture index is the minimal edit",
+    "edit_hint": "uexp @0x10E2: 4C 05 00 00 -> 8D 05 00 00",
+    "confidence": "medium"
+   },
+   {
+    "asset": "sample_b/Content/Event/CG_Gallery.uasset",
+    "object": "texture reference 'CG_event12'",
+    "why": "One wired event-image reference is swapped to its clean sibling in the same package; the display path beyond the binding is not traced end-to-end",
+    "edit_hint": "soft-object-path swap (no byte edit)",
+    "confidence": "low"
+   }
+  ],
+  "files_scanned": 6130,
+  "sweep_terms": [
+   "mosaic",
+   "blur",
+   "pixelate",
+   "censor"
+  ]
+ }
+}

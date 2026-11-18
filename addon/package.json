@@ -1,0 +1,13 @@
+{
+  "name": "SLRUnreal",
+  "title": "SLRUnreal",
+  "description": "Translate Unreal Engine games with the DSLR engine: strings from pak/IoStore containers, length-aware patching, and image-overlay material edits.",
+  "version": "1.0.2",
+  "author": "SLRUnreal project",
+  "autoload": false,
+  "load": [
+    "UnrealAddon.js"
+  ],
+  "optionsDisplay": "general",
+  "docs": "docs.html"
+}

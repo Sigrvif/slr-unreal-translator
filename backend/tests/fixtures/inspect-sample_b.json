@@ -1,0 +1,29 @@
+{
+ "game": "<games-root>\\SampleGameB",
+ "fingerprint": {
+  "engine": "ue5",
+  "iostore": false,
+  "containers": [
+   {
+    "path": "<games-root>\\SampleGameB\\SampleGameB\\Content\\Paks\\SampleGameB-Windows.pak",
+    "kind": "pak",
+    "footer": "patched-e1",
+    "index_encrypted": true,
+    "entries": null
+   }
+  ],
+  "ufs": [
+   "<games-root>\\SampleGameB\\Manifest_UFSFiles_Win64.txt"
+  ]
+ },
+ "utocs": [],
+ "pak": {
+  "path": "<games-root>\\SampleGameB\\SampleGameB\\Content\\Paks\\SampleGameB-Windows.pak",
+  "footer_magic": "patched-e1",
+  "index_encrypted": true,
+  "entries": 0,
+  "manifest_count": 0,
+  "name_coverage": null
+ },
+ "oodle": true
+}

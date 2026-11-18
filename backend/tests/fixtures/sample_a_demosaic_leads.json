@@ -1,0 +1,18 @@
+{
+ "pak_mounted": true,
+ "pak_mount_evidence": "FPakPlatformFile::Initialize always runs the FindFiles('*.pak') mount loop; the game ships its containers as stock paks with a patched footer magic",
+ "magic_patch": "footer magic patched (stock 5A6F12F1 -> 5A6F12E1); engine accepts at the initialize compare",
+ "mosaic_strings": [],
+ "mosaic_strings_direct_grep_hits": 0,
+ "mosaic_candidate_strings": [
+  "M_mosaic",
+  "M_mosaic_",
+  "mosaic_mat"
+ ],
+ "mosaic_functions": [],
+ "vrm4u_findings": "VRM4U plugin present; no mosaic-related materials exported from it",
+ "other_plugins": "none relevant",
+ "keystore_note": "no pak encryption on this game's containers",
+ "notes": "leads recorded from the demosaic discovery sweep; mosaic surfaces are found by material/import evidence (see demosaic_discovery.json), not by string grep",
+ "confidence": "high"
+}

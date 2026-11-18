@@ -1,0 +1,579 @@
+{
+ "sample_a": {
+  "packages_scanned": 1204,
+  "utf16_japanese_runs": {
+   "total": 52310,
+   "samples": [
+    {
+     "asset": "sample_a/Content/Data/DT_Dialogue01.uasset",
+     "offset": 10169,
+     "text": "セリフのサンプル一行目"
+    },
+    {
+     "asset": "sample_a/Content/Data/DT_Dialogue02.uasset",
+     "offset": 10329,
+     "text": "町の入り口にある看板の文"
+    },
+    {
+     "asset": "sample_a/Content/Data/DT_Dialogue03.uasset",
+     "offset": 10489,
+     "text": "選択肢ふたつめ"
+    },
+    {
+     "asset": "sample_a/Content/Data/DT_Dialogue04.uasset",
+     "offset": 10649,
+     "text": "アイテム説明の例文"
+    },
+    {
+     "asset": "sample_a/Content/Data/DT_Dialogue05.uasset",
+     "offset": 10809,
+     "text": "システムメッセージのサンプル"
+    },
+    {
+     "asset": "sample_a/Content/Data/DT_Dialogue06.uasset",
+     "offset": 10969,
+     "text": "クエスト受注の説明文"
+    },
+    {
+     "asset": "sample_a/Content/Data/DT_Dialogue01.uasset",
+     "offset": 11129,
+     "text": "店員のセリフのサンプル"
+    },
+    {
+     "asset": "sample_a/Content/Data/DT_Dialogue02.uasset",
+     "offset": 11289,
+     "text": "戦闘開始時の表示例"
+    },
+    {
+     "asset": "sample_a/Content/Data/DT_Dialogue03.uasset",
+     "offset": 11449,
+     "text": "章タイトルの例"
+    },
+    {
+     "asset": "sample_a/Content/Data/DT_Dialogue04.uasset",
+     "offset": 11609,
+     "text": "ひとりごとのサンプル文"
+    },
+    {
+     "asset": "sample_a/Content/Data/DT_Dialogue05.uasset",
+     "offset": 11769,
+     "text": "セリフのサンプル一行目"
+    },
+    {
+     "asset": "sample_a/Content/Data/DT_Dialogue06.uasset",
+     "offset": 11929,
+     "text": "町の入り口にある看板の文"
+    },
+    {
+     "asset": "sample_a/Content/Data/DT_Dialogue01.uasset",
+     "offset": 12089,
+     "text": "選択肢ふたつめ"
+    },
+    {
+     "asset": "sample_a/Content/Data/DT_Dialogue02.uasset",
+     "offset": 12249,
+     "text": "アイテム説明の例文"
+    },
+    {
+     "asset": "sample_a/Content/Data/DT_Dialogue03.uasset",
+     "offset": 12409,
+     "text": "システムメッセージのサンプル"
+    },
+    {
+     "asset": "sample_a/Content/Data/DT_Dialogue04.uasset",
+     "offset": 12569,
+     "text": "クエスト受注の説明文"
+    },
+    {
+     "asset": "sample_a/Content/Data/DT_Dialogue05.uasset",
+     "offset": 12729,
+     "text": "店員のセリフのサンプル"
+    },
+    {
+     "asset": "sample_a/Content/Data/DT_Dialogue06.uasset",
+     "offset": 12889,
+     "text": "戦闘開始時の表示例"
+    },
+    {
+     "asset": "sample_a/Content/Data/DT_Dialogue01.uasset",
+     "offset": 13049,
+     "text": "章タイトルの例"
+    },
+    {
+     "asset": "sample_a/Content/Data/DT_Dialogue02.uasset",
+     "offset": 13209,
+     "text": "ひとりごとのサンプル文"
+    },
+    {
+     "asset": "sample_a/Content/Data/DT_Dialogue03.uasset",
+     "offset": 13369,
+     "text": "セリフのサンプル一行目"
+    },
+    {
+     "asset": "sample_a/Content/Data/DT_Dialogue04.uasset",
+     "offset": 13529,
+     "text": "町の入り口にある看板の文"
+    },
+    {
+     "asset": "sample_a/Content/Data/DT_Dialogue05.uasset",
+     "offset": 13689,
+     "text": "選択肢ふたつめ"
+    },
+    {
+     "asset": "sample_a/Content/Data/DT_Dialogue06.uasset",
+     "offset": 13849,
+     "text": "アイテム説明の例文"
+    },
+    {
+     "asset": "sample_a/Content/Data/DT_Dialogue01.uasset",
+     "offset": 14009,
+     "text": "システムメッセージのサンプル"
+    },
+    {
+     "asset": "sample_a/Content/Data/DT_Dialogue02.uasset",
+     "offset": 14169,
+     "text": "クエスト受注の説明文"
+    },
+    {
+     "asset": "sample_a/Content/Data/DT_Dialogue03.uasset",
+     "offset": 14329,
+     "text": "店員のセリフのサンプル"
+    },
+    {
+     "asset": "sample_a/Content/Data/DT_Dialogue04.uasset",
+     "offset": 14489,
+     "text": "戦闘開始時の表示例"
+    },
+    {
+     "asset": "sample_a/Content/Data/DT_Dialogue05.uasset",
+     "offset": 14649,
+     "text": "章タイトルの例"
+    },
+    {
+     "asset": "sample_a/Content/Data/DT_Dialogue06.uasset",
+     "offset": 14809,
+     "text": "ひとりごとのサンプル文"
+    },
+    {
+     "asset": "sample_a/Content/Data/DT_Dialogue01.uasset",
+     "offset": 14969,
+     "text": "セリフのサンプル一行目"
+    },
+    {
+     "asset": "sample_a/Content/Data/DT_Dialogue02.uasset",
+     "offset": 15129,
+     "text": "町の入り口にある看板の文"
+    },
+    {
+     "asset": "sample_a/Content/Data/DT_Dialogue03.uasset",
+     "offset": 15289,
+     "text": "選択肢ふたつめ"
+    },
+    {
+     "asset": "sample_a/Content/Data/DT_Dialogue04.uasset",
+     "offset": 15449,
+     "text": "アイテム説明の例文"
+    },
+    {
+     "asset": "sample_a/Content/Data/DT_Dialogue05.uasset",
+     "offset": 15609,
+     "text": "システムメッセージのサンプル"
+    },
+    {
+     "asset": "sample_a/Content/Data/DT_Dialogue06.uasset",
+     "offset": 15769,
+     "text": "クエスト受注の説明文"
+    },
+    {
+     "asset": "sample_a/Content/Data/DT_Dialogue01.uasset",
+     "offset": 15929,
+     "text": "店員のセリフのサンプル"
+    },
+    {
+     "asset": "sample_a/Content/Data/DT_Dialogue02.uasset",
+     "offset": 16089,
+     "text": "戦闘開始時の表示例"
+    },
+    {
+     "asset": "sample_a/Content/Data/DT_Dialogue03.uasset",
+     "offset": 16249,
+     "text": "章タイトルの例"
+    },
+    {
+     "asset": "sample_a/Content/Data/DT_Dialogue04.uasset",
+     "offset": 16409,
+     "text": "ひとりごとのサンプル文"
+    },
+    {
+     "asset": "sample_a/Content/Data/DT_Dialogue05.uasset",
+     "offset": 16569,
+     "text": "セリフのサンプル一行目"
+    },
+    {
+     "asset": "sample_a/Content/Data/DT_Dialogue06.uasset",
+     "offset": 16729,
+     "text": "町の入り口にある看板の文"
+    },
+    {
+     "asset": "sample_a/Content/Data/DT_Dialogue01.uasset",
+     "offset": 16889,
+     "text": "選択肢ふたつめ"
+    },
+    {
+     "asset": "sample_a/Content/Data/DT_Dialogue02.uasset",
+     "offset": 17049,
+     "text": "アイテム説明の例文"
+    },
+    {
+     "asset": "sample_a/Content/Data/DT_Dialogue03.uasset",
+     "offset": 17209,
+     "text": "システムメッセージのサンプル"
+    },
+    {
+     "asset": "sample_a/Content/Data/DT_Dialogue04.uasset",
+     "offset": 17369,
+     "text": "クエスト受注の説明文"
+    },
+    {
+     "asset": "sample_a/Content/Data/DT_Dialogue05.uasset",
+     "offset": 17529,
+     "text": "店員のセリフのサンプル"
+    },
+    {
+     "asset": "sample_a/Content/Data/DT_Dialogue06.uasset",
+     "offset": 17689,
+     "text": "戦闘開始時の表示例"
+    },
+    {
+     "asset": "sample_a/Content/Data/DT_Dialogue01.uasset",
+     "offset": 17849,
+     "text": "章タイトルの例"
+    },
+    {
+     "asset": "sample_a/Content/Data/DT_Dialogue02.uasset",
+     "offset": 18009,
+     "text": "ひとりごとのサンプル文"
+    }
+   ]
+  },
+  "text_shapes": [
+   {
+    "shape": "uasset-export-FText-Base",
+    "count": 1893,
+    "example_asset": "sample_a/Content/Data/DT_Dialogue01.uasset",
+    "notes": "localized FText base records; the dialogue corpus"
+   },
+   {
+    "shape": "uexp-raw-utf16-run",
+    "count": 512,
+    "example_asset": "sample_a/Content/UI/WBP_Status.uexp",
+    "notes": "widget default strings serialized inline"
+   }
+  ],
+  "notable_assets": [
+   {
+    "name": "DT_Dialogue01.uasset",
+    "class_hint": "DataTable",
+    "japanese_runs": 225
+   },
+   {
+    "name": "WBP_Status.uasset",
+    "class_hint": "WidgetBlueprint",
+    "japanese_runs": 23
+   }
+  ],
+  "other_encodings": {
+   "utf8_runs": 340,
+   "shiftjis_runs": 12
+  }
+ },
+ "sample_b": {
+  "packages_scanned": 6130,
+  "uasset_uexp_pairs": 6130,
+  "utf16_japanese_runs": {
+   "total": 7688,
+   "samples": [
+    {
+     "asset": "sample_b/Content/UI/WBP_Menu01.uasset",
+     "offset": 55280,
+     "text": "メインメニュー"
+    },
+    {
+     "asset": "sample_b/Content/UI/WBP_Menu02.uasset",
+     "offset": 55500,
+     "text": "セーブしますか？"
+    },
+    {
+     "asset": "sample_b/Content/UI/WBP_Menu03.uasset",
+     "offset": 55720,
+     "text": "設定を開く"
+    },
+    {
+     "asset": "sample_b/Content/UI/WBP_Menu04.uasset",
+     "offset": 55940,
+     "text": "冒険を始める"
+    },
+    {
+     "asset": "sample_b/Content/UI/WBP_Menu05.uasset",
+     "offset": 56160,
+     "text": "やめる"
+    },
+    {
+     "asset": "sample_b/Content/UI/WBP_Menu01.uasset",
+     "offset": 56380,
+     "text": "クエスト一覧"
+    },
+    {
+     "asset": "sample_b/Content/UI/WBP_Menu02.uasset",
+     "offset": 56600,
+     "text": "情報を閉じる"
+    },
+    {
+     "asset": "sample_b/Content/UI/WBP_Menu03.uasset",
+     "offset": 56820,
+     "text": "次のページへ"
+    },
+    {
+     "asset": "sample_b/Content/UI/WBP_Menu04.uasset",
+     "offset": 57040,
+     "text": "戻る"
+    },
+    {
+     "asset": "sample_b/Content/UI/WBP_Menu05.uasset",
+     "offset": 57260,
+     "text": "決定"
+    },
+    {
+     "asset": "sample_b/Content/UI/WBP_Menu01.uasset",
+     "offset": 57480,
+     "text": "メインメニュー"
+    },
+    {
+     "asset": "sample_b/Content/UI/WBP_Menu02.uasset",
+     "offset": 57700,
+     "text": "セーブしますか？"
+    },
+    {
+     "asset": "sample_b/Content/UI/WBP_Menu03.uasset",
+     "offset": 57920,
+     "text": "設定を開く"
+    },
+    {
+     "asset": "sample_b/Content/UI/WBP_Menu04.uasset",
+     "offset": 58140,
+     "text": "冒険を始める"
+    },
+    {
+     "asset": "sample_b/Content/UI/WBP_Menu05.uasset",
+     "offset": 58360,
+     "text": "やめる"
+    },
+    {
+     "asset": "sample_b/Content/UI/WBP_Menu01.uasset",
+     "offset": 58580,
+     "text": "クエスト一覧"
+    },
+    {
+     "asset": "sample_b/Content/UI/WBP_Menu02.uasset",
+     "offset": 58800,
+     "text": "情報を閉じる"
+    },
+    {
+     "asset": "sample_b/Content/UI/WBP_Menu03.uasset",
+     "offset": 59020,
+     "text": "次のページへ"
+    },
+    {
+     "asset": "sample_b/Content/UI/WBP_Menu04.uasset",
+     "offset": 59240,
+     "text": "戻る"
+    },
+    {
+     "asset": "sample_b/Content/UI/WBP_Menu05.uasset",
+     "offset": 59460,
+     "text": "決定"
+    },
+    {
+     "asset": "sample_b/Content/UI/WBP_Menu01.uasset",
+     "offset": 59680,
+     "text": "メインメニュー"
+    },
+    {
+     "asset": "sample_b/Content/UI/WBP_Menu02.uasset",
+     "offset": 59900,
+     "text": "セーブしますか？"
+    },
+    {
+     "asset": "sample_b/Content/UI/WBP_Menu03.uasset",
+     "offset": 60120,
+     "text": "設定を開く"
+    },
+    {
+     "asset": "sample_b/Content/UI/WBP_Menu04.uasset",
+     "offset": 60340,
+     "text": "冒険を始める"
+    },
+    {
+     "asset": "sample_b/Content/UI/WBP_Menu05.uasset",
+     "offset": 60560,
+     "text": "やめる"
+    },
+    {
+     "asset": "sample_b/Content/UI/WBP_Menu01.uasset",
+     "offset": 60780,
+     "text": "クエスト一覧"
+    },
+    {
+     "asset": "sample_b/Content/UI/WBP_Menu02.uasset",
+     "offset": 61000,
+     "text": "情報を閉じる"
+    },
+    {
+     "asset": "sample_b/Content/UI/WBP_Menu03.uasset",
+     "offset": 61220,
+     "text": "次のページへ"
+    },
+    {
+     "asset": "sample_b/Content/UI/WBP_Menu04.uasset",
+     "offset": 61440,
+     "text": "戻る"
+    },
+    {
+     "asset": "sample_b/Content/UI/WBP_Menu05.uasset",
+     "offset": 61660,
+     "text": "決定"
+    },
+    {
+     "asset": "sample_b/Content/UI/WBP_Menu01.uasset",
+     "offset": 61880,
+     "text": "メインメニュー"
+    },
+    {
+     "asset": "sample_b/Content/UI/WBP_Menu02.uasset",
+     "offset": 62100,
+     "text": "セーブしますか？"
+    },
+    {
+     "asset": "sample_b/Content/UI/WBP_Menu03.uasset",
+     "offset": 62320,
+     "text": "設定を開く"
+    },
+    {
+     "asset": "sample_b/Content/UI/WBP_Menu04.uasset",
+     "offset": 62540,
+     "text": "冒険を始める"
+    },
+    {
+     "asset": "sample_b/Content/UI/WBP_Menu05.uasset",
+     "offset": 62760,
+     "text": "やめる"
+    },
+    {
+     "asset": "sample_b/Content/UI/WBP_Menu01.uasset",
+     "offset": 62980,
+     "text": "クエスト一覧"
+    },
+    {
+     "asset": "sample_b/Content/UI/WBP_Menu02.uasset",
+     "offset": 63200,
+     "text": "情報を閉じる"
+    },
+    {
+     "asset": "sample_b/Content/UI/WBP_Menu03.uasset",
+     "offset": 63420,
+     "text": "次のページへ"
+    },
+    {
+     "asset": "sample_b/Content/UI/WBP_Menu04.uasset",
+     "offset": 63640,
+     "text": "戻る"
+    },
+    {
+     "asset": "sample_b/Content/UI/WBP_Menu05.uasset",
+     "offset": 63860,
+     "text": "決定"
+    },
+    {
+     "asset": "sample_b/Content/UI/WBP_Menu01.uasset",
+     "offset": 64080,
+     "text": "メインメニュー"
+    },
+    {
+     "asset": "sample_b/Content/UI/WBP_Menu02.uasset",
+     "offset": 64300,
+     "text": "セーブしますか？"
+    },
+    {
+     "asset": "sample_b/Content/UI/WBP_Menu03.uasset",
+     "offset": 64520,
+     "text": "設定を開く"
+    },
+    {
+     "asset": "sample_b/Content/UI/WBP_Menu04.uasset",
+     "offset": 64740,
+     "text": "冒険を始める"
+    },
+    {
+     "asset": "sample_b/Content/UI/WBP_Menu05.uasset",
+     "offset": 64960,
+     "text": "やめる"
+    },
+    {
+     "asset": "sample_b/Content/UI/WBP_Menu01.uasset",
+     "offset": 65180,
+     "text": "クエスト一覧"
+    },
+    {
+     "asset": "sample_b/Content/UI/WBP_Menu02.uasset",
+     "offset": 65400,
+     "text": "情報を閉じる"
+    },
+    {
+     "asset": "sample_b/Content/UI/WBP_Menu03.uasset",
+     "offset": 65620,
+     "text": "次のページへ"
+    },
+    {
+     "asset": "sample_b/Content/UI/WBP_Menu04.uasset",
+     "offset": 65840,
+     "text": "戻る"
+    },
+    {
+     "asset": "sample_b/Content/UI/WBP_Menu05.uasset",
+     "offset": 66060,
+     "text": "決定"
+    }
+   ]
+  },
+  "text_shapes": [
+   {
+    "shape": "uasset-export-FText-Base",
+    "count": 3104,
+    "example_asset": "sample_b/Content/UI/WBP_Menu01.uasset",
+    "notes": "every package pairs with a separate .uexp pak entry"
+   },
+   {
+    "shape": "script-bytecode-literal",
+    "count": 592,
+    "example_asset": "sample_b/Content/Scripts/QM_Quest.uasset",
+    "notes": "compiled UI script literals, same-size in-place patch"
+   }
+  ],
+  "notable_assets": [
+   {
+    "name": "WBP_Menu01.uasset",
+    "class_hint": "WidgetBlueprint",
+    "japanese_runs": 88
+   },
+   {
+    "name": "QM_Quest.uasset",
+    "class_hint": "Blueprint",
+    "japanese_runs": 592
+   }
+  ],
+  "other_encodings": {
+   "utf8_runs": 1140,
+   "shiftjis_runs": 0
+  }
+ }
+}
